@@ -9,6 +9,7 @@ jobs :
             - name : Run Tests
               run : dotnet test
     deploy-job :
+        needs : test-job
         runs-on : ubuntu-latest
         steps :
             - name : Get code from repo
