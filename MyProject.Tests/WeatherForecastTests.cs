@@ -26,7 +26,7 @@ public class UnitTest1
     public void Multiply_ReturnsCorrectProduct()
     {
         // Act
-        int result = _mathService.Multiply(3, 3);
+        int result = _mathService.Multiply(2, 3);
 
         // Assert
         Assert.Equal(6, result);
